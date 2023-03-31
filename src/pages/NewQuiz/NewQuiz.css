@@ -1,0 +1,35 @@
+.nouveau{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-left:20vw;
+}
+.question{
+    margin-top:4vh;
+}
+#question{
+    width:38vw;
+    margin-bottom:2vh;
+}
+.theme{
+    background-color:#4250cb;
+    color:white;
+    width:40vw;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+#theme{
+    width:38vw;
+    margin-bottom:2vh;
+}
+.ans{
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+}
+.valider{
+    margin-top:2vh;
+}
